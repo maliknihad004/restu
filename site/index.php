@@ -19,7 +19,7 @@ include 'connect.php';
 <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
   <div class="container">
     <a class="navbar-brand" href="#">
-      <strong>Restaurant Finder </strong>
+      <strong>Restaurant Finders </strong>
     </a>
   </div>
 </nav>
