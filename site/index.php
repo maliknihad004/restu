@@ -5,7 +5,7 @@ include 'connect.php';
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Restaurant Recommendation</title>
+  <title>Restaurant Recommendationss</title>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
 
