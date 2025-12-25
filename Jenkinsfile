@@ -7,20 +7,21 @@ pipeline {
     }
 
     stages {
-
         stage('Checkout') {
             steps {
                 git branch: 'main', url: env.REPO_URL
             }
         }
 
+        stage('Build') {
+            steps {
+                sh 'docker compose build --no-cache'
+            }
+        }
+
         stage('Deploy') {
             steps {
-                sh '''
-                docker compose down || true
-                docker compose build 
-                docker compose up -d
-                '''
+                sh 'docker compose up -d'
             }
         }
     }
