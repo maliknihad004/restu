@@ -12,7 +12,7 @@ INSERT INTO `restaurant` (`meal`, `best_restaurant`) VALUES
 ('pizza', 'Italiano Pizza'),
 ('shawarma', 'Shawarma King'),
 ('sushi', 'Tokyo House'),
-('Burger', 'Burger House'),
+('burger', 'Burger House'),
 ('pizza', 'Italiano Pizzeria'),
 ('shawarma', 'Shawarma King'),
 ('sushi', 'Tokyo Sushi'),
