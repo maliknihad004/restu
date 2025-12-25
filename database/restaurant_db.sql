@@ -1,25 +1,20 @@
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-START TRANSACTION;
-SET time_zone = "+00:00";
+CREATE TABLE restaurant (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    meal VARCHAR(255) NOT NULL,
+    best_restaurant VARCHAR(255) NOT NULL,
+    rating FLOAT DEFAULT 0
+);
 
-CREATE TABLE `restaurant` (
-  `meal` varchar(255) DEFAULT NULL,
-  `best_restaurant` varchar(255) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-
-INSERT INTO `restaurant` (`meal`, `best_restaurant`) VALUES
-('burger', 'Super Burger'),
-('pizza', 'Italiano Pizza'),
-('shawarma', 'Shawarma King'),
-('sushi', 'Tokyo House'),
-('burger', 'Burger House'),
-('pizza', 'Italiano Pizzeria'),
-('shawarma', 'Shawarma King'),
-('sushi', 'Tokyo Sushi'),
-('fried chicken', 'KFC'),
-('pasta', 'Little Italy');
+INSERT INTO restaurant (meal, best_restaurant, rating) VALUES
+('burger', 'Super Burger', 4.2),
+('pizza', 'Italiano Pizza', 4.7),
+('shawarma', 'Shawarma King', 4.3),
+('sushi', 'Tokyo House', 4.8),
+('burger', 'Burger House', 4.6),
+('pizza', 'Italiano Pizzeria', 4.5),
+('shawarma', 'Al Shawarma', 4.7),
+('sushi', 'Sushi Heaven', 4.6),
+('fried chicken', 'KFC', 4.1),
+('pasta', 'Little Italy', 4.4);
 
 COMMIT;
-
-
-
