@@ -18,7 +18,7 @@ pipeline {
             steps {
                 sh '''
                 docker compose down || true
-                docker compose build --no-cache
+                docker compose build 
                 docker compose up -d
                 '''
             }
