@@ -16,5 +16,3 @@ INSERT INTO restaurant (meal, best_restaurant, rating) VALUES
 ('sushi', 'Sushi Heaven', 4.6),
 ('fried chicken', 'KFC', 4.1),
 ('pasta', 'Little Italy', 4.4);
-
-COMMIT;
