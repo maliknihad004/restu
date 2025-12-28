@@ -57,7 +57,7 @@
                     </div>";
             } else {
               echo "<div class='alert alert-warning'>
-                    No recommendations found for <strong>" . htmlspecialchars($meal) . "</strong>.
+                    No recommendation found for <strong>" . htmlspecialchars($meal) . "</strong>.
                     </div>";
             }
 
