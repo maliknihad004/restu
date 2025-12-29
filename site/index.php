@@ -23,7 +23,7 @@
 
       <div class="card shadow-sm">
         <div class="card-header bg-primary text-white">
-          <strong>Find the Best Restaurant<strong>
+          <strong>Find the Best Restaurant!<strong>
         </div>
         <div class="card-body">
 
